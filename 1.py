@@ -64,4 +64,10 @@
 # else:
 #     print("不够帅")
 # print("帅到完事了")
-
+#
+# for i in  range(10):
+#     print(i+1)
+# for i in  range(50,60):
+#     print(i)
+# for i in range(-1,-10,-2):
+#     print(i)
