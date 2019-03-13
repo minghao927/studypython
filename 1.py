@@ -45,7 +45,23 @@
 # else:
 #     print(count,">=5")
 #
-flag=1
-while (flag):print('小茹欢迎你！！')
-print("再见！！")
+# flag=1
+# while 1<2:
+#     print('小茹欢迎你！！')
+# print("再见！！")
+
+# xiaoru=["朝","之","雾","万","岁"]
+# for x in xiaoru:
+    # print(x)
+#
+# zzw=["zhao","zhi","wu","xiaoru","benzhu"]
+#
+# for xiaoru in zzw:
+#     if xiaoru == "xiaoru":
+#         print("#笨猪#雪糕")
+#         break
+#     print("就很帅" + xiaoru)
+# else:
+#     print("不够帅")
+# print("帅到完事了")
 
