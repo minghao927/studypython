@@ -103,3 +103,18 @@
 #             break
 #     else:
 #         print(n,'是质数')
+# while True:
+# #     pass
+# for letter in 'Runoob':
+#     if letter == 'o':
+#         pass
+#         print('执行 pass 块')
+#     print('当前字母 :', letter)
+#
+# print("Good bye!")
+# def func(**kwargs):
+#     for name,value in kwargs.items():
+#         print(0 = 1),format(name,value)
+# func(name='jack',age=30)
+# a=map(lambda x:x*2,[1,2,3])
+# list(a)
