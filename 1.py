@@ -71,3 +71,35 @@
 #     print(i)
 # for i in range(-1,-10,-2):
 #     print(i)
+# a=['xiaoru','qq','wechat','alipay','python']
+# for i in range(len(a)):
+#     print(i,a[i])
+# for letter in 'xiaoru':
+# #     if letter == 'o':
+# #         continue
+# #     print('当前字母为：',letter)
+# # var = 10
+# # while var >0:
+# #     print('当前变量为：',var)
+# #     var = var -1
+# #     if var == 5:
+# #         continue
+# # print("good bye!")
+# for letter in 'xiaoru':
+#     if letter == 'o':
+#         break
+#     print('当前字母为：',letter)
+# var = 10
+# while var >0:
+#     print('当前变量为：',var)
+#     var = var -1
+#     if var == 5:
+#         break
+# print("good bye!")
+# for n in range(2,10):
+#     for x in range(2,n):
+#         if n % x ==0:
+#             print(n,'等于',x,'*',n//x)
+#             break
+#     else:
+#         print(n,'是质数')
