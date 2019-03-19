@@ -409,3 +409,59 @@
 # print("------------------")
 # printinfo(name="xiaoru",age=23)
 
+# def functionname([formal_args,] * var_args_tuple):
+#     function_suite
+#     return [expression]
+
+# def printinfo(arg1,*vartuple):
+#     print("输出")
+#     print(arg1)
+#     print(vartuple)
+#
+# printinfo(70,60,50,40,30,20,10)
+
+# def printinfo(arg1,*vartuple):
+#     print("输出：")
+#     print(arg1)
+#     for var in vartuple:
+#         print(var)
+#     return
+#
+# printinfo(10)
+# printinfo(20,30,40,50)
+
+# def printinfo(arg1,**vartuple):
+#     print("输出：")
+#     print(arg1)
+#     print(vartuple)
+#     return
+#
+# printinfo(10,a=7,b=8)
+
+# sum = lambda arg1, arg2:agr1 + arg2
+#
+# print("相加后的值为：", sum( 10 , 20 ))
+# print("相加后的值为：", sum( 20 , 20 ))
+
+# def sum(arg1,arg2):
+#     total=arg1+arg2
+#     print("函数内：",total)
+#     return total
+#
+# total = sum(10,20)
+# print("函数外：",total)
+
+# if True:
+#     msg='i am from zhaozhiwu'
+#
+# print(msg)
+
+total = 0 #全局变量
+
+def sum(arg1,arg2):
+    total=arg1+arg2
+    print("函数内是局部变量：",total)
+    return total
+sum(10,20) #sum函数变量
+
+print("函数外是全局变量：",total)
