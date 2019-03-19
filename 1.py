@@ -294,18 +294,118 @@
 # y=test.speak()
 # print(y)
 
-class Parent:  # 定义父类
-    def myMethod(self):
-        print('调用父类方法')
+# class Parent:  # 定义父类
+#     def myMethod(self):
+#         print('调用父类方法')
+#
+#
+# class Child(Parent):  # 定义子类
+#     def myMethod(self):
+#         print('调用子类方法')
+#
+#
+# c = Child()  # 子类实例
+# c.myMethod()  # 子类调用重写方法
+# super(Child, c).myMethod()  # 用子类对象调用父类已被覆盖的方法
+
+# class JustCounter:
+#     __secretCount = 0  # 私有变量
+#     publicCount = 0  # 公开变量
+#
+#     def count(self):
+#         self.__secretCount += 1
+#         self.publicCount += 1
+#         print(self.__secretCount)
+#
+#
+# counter = JustCounter()
+# counter.count()
+# counter.count()
+# print(counter.publicCount)
+# print(counter.__secretCount)  # 报错，实例不能访问私有变量
 
 
-class Child(Parent):  # 定义子类
-    def myMethod(self):
-        print('调用子类方法')
+#
+# class Site:
+#     def __init__(self, name, url):
+#         self.name = name  # public
+#         self.__url = url  # private
+#
+#     def who(self):
+#         print('name  : ', self.name)
+#         print('url : ', self.__url)
+#
+#     def __foo(self):  # 私有方法
+#         print('这是私有方法')
+#
+#     def foo(self):  # 公共方法
+#         print('这是公共方法')
+#         self.__foo()
+#
+#
+# x = Site('小茹自学', 'www.xiaoru.vip')
+# x.who()  # 正常输出
+# x.foo()  # 正常输出
+# #x.__foo()  # 报错
 
+# def hello():
+#     print("hello world")
+#
+# hello()
 
-c = Child()  # 子类实例
-c.myMethod()  # 子类调用重写方法
-super(Child, c).myMethod()  # 用子类对象调用父类已被覆盖的方法
+# def area(width,height):
+#     return width * height
+# def print_welcome(name):
+#     print("welcome",name)
+# print_welcome("xiaoru")
+# w=7
+# h=8
+# print("width=",w,"height=",h,"area=",area(w,h))
 
+# def printme(str):
+#     print(str)
+#     return
+#
+# printme("我要开始了")
+# printme("不愧是你呀")
+
+# a=[1,2,3]
+# a="xiaoru"
+
+# def changeint(a):
+#     a=10
+# b=2
+# changeint(b)
+# print(b)
+
+# def changeme(mylist):
+#     mylist.append([1,2,3,4])
+#     print("函数内取值:",mylist)
+#     return
+#
+# mylist=[10,20,30]
+# changeme(mylist)
+# print("函数外取值",mylist)
+
+# def printme(str):
+#     print(str)
+#     return
+#
+# printme("不愧是小茹")
+
+# def printinfo(name,age):
+#     print("名字",name)
+#     print("年龄",age)
+#     return
+#
+# printinfo(age=22,name="xiaoru")
+
+# def printinfo(name,age=22):
+#     print("名字",name)
+#     print("年龄",age)
+#     return
+#
+# printinfo(name="xiaoru")
+# print("------------------")
+# printinfo(name="xiaoru",age=23)
 
