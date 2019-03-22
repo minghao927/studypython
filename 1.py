@@ -514,16 +514,25 @@
 #         print("剩余尝试次数:",i)
 
 # 计算 1 - 2 + 3 - 4 ..... +99 中除了88以外所有数的总和
-i = 1
-sum = 0
-while i < 100:
-    if i != 88:
-        if i % 2 == 0:
-            sum = sum - i
-            print(sum)
-        else:
-            sum = sum + i
-            print(sum)
-    i += 1
+# i = 1
+# sum = 0
+# while i < 100:
+#     if i != 88:
+#         if i % 2 == 0:
+#             sum = sum - i
+#             print(sum)
+#         else:
+#             sum = sum + i
+#             print(sum)
+#     i += 1
+#
+# print(sum)
 
-print(sum)
+# 计算 1 - 2 + 3 - 4 ..... -99 中除了88以外所有数的总和
+
+i = 1
+j = 1
+sum = 0
+
+while i>100
+
