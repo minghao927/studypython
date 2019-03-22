@@ -456,12 +456,72 @@
 #
 # print(msg)
 
-total = 0 #全局变量
+# total = 0 #全局变量
+#
+# def sum(arg1,arg2):
+#     total=arg1+arg2
+#     print("函数内是局部变量：",total)
+#     return total
+# sum(10,20) #sum函数变量
+#
+# print("函数外是全局变量：",total)
 
-def sum(arg1,arg2):
-    total=arg1+arg2
-    print("函数内是局部变量：",total)
-    return total
-sum(10,20) #sum函数变量
+# num = 1
+# def fun1():
+#     global num
+#     print(num)
+#     num = 123
+#     print(num)
+#
+# fun1()
+# print(num)
 
-print("函数外是全局变量：",total)
+# a = 10
+# def test(a):
+#     a = a + 1
+#     print(a)
+# test(a)
+
+
+# 实现用户登录（三次输错机会），且每次错误时候显示剩余错误次数
+username = 'xiaoru'
+password = '123456'
+i=3
+
+while i>0:
+
+    i -= 1
+
+    name = input("请输入用户名:")
+
+    if name == username :
+        passwd=input("请输入密码:")
+        if passwd == password :
+            print("密码正确，请稍后")
+            print("""
+            
+          用户名：%s
+          密码：%s
+          登陆成功！
+            
+            """%(username,password))
+            break
+        else:
+            print("密码错误，请重新尝试")
+            print("剩余尝试次数:",i)
+    else:
+        print("用户名错误，请重新尝试")
+        print("剩余尝试次数:",i)
+
+
+
+
+
+
+
+
+
+
+
+
+
