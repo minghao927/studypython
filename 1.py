@@ -52,7 +52,7 @@
 
 # xiaoru=["朝","之","雾","万","岁"]
 # for x in xiaoru:
-    # print(x)
+# print(x)
 #
 # zzw=["zhao","zhi","wu","xiaoru","benzhu"]
 #
@@ -484,44 +484,46 @@
 
 
 # 实现用户登录（三次输错机会），且每次错误时候显示剩余错误次数
-username = 'xiaoru'
-password = '123456'
-i=3
+# username = 'xiaoru'
+# password = '123456'
+# i=3
+#
+# while i>0:
+#
+#     i -= 1
+#
+#     name = input("请输入用户名:")
+#
+#     if name == username :
+#         passwd=input("请输入密码:")
+#         if passwd == password :
+#             print("密码正确，请稍后")
+#             print("""
+#
+#           用户名：%s
+#           密码：%s
+#           登陆成功！
+#
+#             """%(username,password))
+#             break
+#         else:
+#             print("密码错误，请重新尝试")
+#             print("剩余尝试次数:",i)
+#     else:
+#         print("用户名错误，请重新尝试")
+#         print("剩余尝试次数:",i)
 
-while i>0:
-
-    i -= 1
-
-    name = input("请输入用户名:")
-
-    if name == username :
-        passwd=input("请输入密码:")
-        if passwd == password :
-            print("密码正确，请稍后")
-            print("""
-            
-          用户名：%s
-          密码：%s
-          登陆成功！
-            
-            """%(username,password))
-            break
+# 计算 1 - 2 + 3 - 4 ..... +99 中除了88以外所有数的总和
+i = 1
+sum = 0
+while i < 100:
+    if i != 88:
+        if i % 2 == 0:
+            sum = sum - i
+            print(sum)
         else:
-            print("密码错误，请重新尝试")
-            print("剩余尝试次数:",i)
-    else:
-        print("用户名错误，请重新尝试")
-        print("剩余尝试次数:",i)
+            sum = sum + i
+            print(sum)
+    i += 1
 
-
-
-
-
-
-
-
-
-
-
-
-
+print(sum)
