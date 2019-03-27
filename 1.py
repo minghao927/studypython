@@ -529,10 +529,26 @@
 # print(sum)
 
 # 计算 1 - 2 + 3 - 4 ..... -99 中除了88以外所有数的总和
+#
+# i = 1
+# j = 1
+# sum = 0
+#
+# while > 100
 
-i = 1
-j = 1
-sum = 0
+# s = 'asdgsdfgxcvzxcfsadf'
+# n = 0
+# while 1:
+#     print(s[n])
+#     n += 1
+#     if n == len(s):break
 
-while i>100
+# content = input('>>>').strip()
+# con1 = content.split('+')
+#
+# num = 0
+#
+# for i in con1:
+#     num += int(i)
+# print(num)
 
