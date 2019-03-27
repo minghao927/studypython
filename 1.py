@@ -587,7 +587,10 @@
 #
 # print('\n\npython 路径为 ：',sys.path,'\n')
 
-import fibo
-
-fibo.fib(1000)
-
+# import fibo
+#
+# fibo.fib(1000)
+#
+# import hello
+#
+# hello.print_h1(h2='xiaoru')
