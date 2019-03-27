@@ -552,3 +552,42 @@
 #     num += int(i)
 # print(num)
 
+# a = [66.25, 22, 233, 1, 33, 233, 123.5]
+# print(a.count(233),a.count(22),a.count('x'))
+#
+# a.insert(2,-1)
+# a.append(233)
+# print(a)
+# print(a.count(233),a.count(22),a.count('x'))
+#
+# a.index(233)
+# print(a.index(233))
+# a.remove(233)
+# print(a)
+#
+# a.reverse()
+# print(a)
+#
+# a.sort()
+# print(a)
+
+
+# stack=[3,4,5]
+# stack.append(6)
+# stack.append(7)
+#
+# print(stack)
+
+# from collections import deque
+# import sys
+#
+# print('命令行参数如下：')
+# for i in sys.argv:
+#     print(i)
+#
+# print('\n\npython 路径为 ：',sys.path,'\n')
+
+import fibo
+
+fibo.fib(1000)
+
