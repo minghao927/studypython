@@ -595,3 +595,10 @@
 #
 # hello.print_h1(h2='xiaoru')
 
+# import hello,sys,fibo
+# print(dir(hello))
+#
+# print(dir(fibo))
+#
+# print(dir(sys))
+
