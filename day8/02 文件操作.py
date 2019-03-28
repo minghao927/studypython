@@ -5,10 +5,10 @@ print(content)
 f.close()
 
 # bytes ---->str
-# f = open('模特主妇护士班主任',mode='r',encoding='utf-8')
-# content = f.read()
-# f.write('fjsdlk')
-# f.close()
+a = open('模特主妇护士班主任',mode='r',encoding='gbk')
+content1 = a.read()
+a.write('fjsdlk')
+a.close()
 
 # f = open('模特主妇护士班主任',mode='rb',)
 # content = f.read()
