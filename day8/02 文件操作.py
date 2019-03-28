@@ -1,10 +1,10 @@
-#绝对路径
-# f = open('d:\模特主妇护士班主任.txt',mode='r',encoding='UTF-8')
-# content = f.read()
-# print(content)
-# f.close()
+# 绝对路径
+f = open('D:\牛批.txt', mode='r', encoding='gbk')
+content = f.read()
+print(content)
+f.close()
 
-#bytes ---->str
+# bytes ---->str
 # f = open('模特主妇护士班主任',mode='r',encoding='utf-8')
 # content = f.read()
 # f.write('fjsdlk')
@@ -24,8 +24,7 @@
 # f.close()
 
 
-
-#对于w:没有此文件就会创建文件
+# 对于w:没有此文件就会创建文件
 # f = open('log',mode='w',encoding='utf-8')
 # f.write('骑兵步兵')
 # f.close()
@@ -56,7 +55,6 @@
 # f.close()
 
 
-
 # f = open('log',mode='a+',encoding='utf-8')
 # f.write('佳琪')
 # f.seek(0)
@@ -69,7 +67,7 @@
 # f.close()
 
 
-#功能详解
+# 功能详解
 
 # obj = open('log',mode='r+',encoding='utf-8')
 # content = f.read(3)  # 读出来的都是字符
@@ -88,11 +86,6 @@
 # f.close()
 
 
-
-
-
-
-
 # f = open('log',mode='a+',encoding='utf-8')
 # f.write('佳琪')
 # count = f.tell()
@@ -102,4 +95,3 @@
 
 # with open('log',mode='r+',encoding='utf-8') as f,\
 #         open('log',mode='w+',encoding='utf-8') as f1:
-
