@@ -1,14 +1,21 @@
 # 绝对路径
-f = open('D:\牛批.txt', mode='r', encoding='gbk')
-content = f.read()
-print(content)
-f.close()
+# f = open('D:\牛批.txt', mode='r', encoding='gbk')
+# content = f.read()
+# print(content)
+# f.close()
+
+# f = open('模特主妇护士班主任', mode='r', encoding='utf-8')
+# content = f.read()
+# print(content)
+# f.close()
+
+
 
 # bytes ---->str
-a = open('模特主妇护士班主任',mode='r',encoding='gbk')
-content1 = a.read()
-a.write('fjsdlk')
-a.close()
+# a = open('模特主妇护士班主任',mode='r',encoding='utf-8')
+# content1 = a.read()
+# a.write('fjsdlk')
+# a.close()
 
 # f = open('模特主妇护士班主任',mode='rb',)
 # content = f.read()
@@ -27,6 +34,8 @@ a.close()
 # 对于w:没有此文件就会创建文件
 # f = open('log',mode='w',encoding='utf-8')
 # f.write('骑兵步兵')
+# #content=f.read()
+# #print(content)
 # f.close()
 
 # 先将源文件的内容全部清除，在写。
