@@ -34,8 +34,6 @@
 # 对于w:没有此文件就会创建文件
 # f = open('log',mode='w',encoding='utf-8')
 # f.write('骑兵步兵')
-# #content=f.read()
-# #print(content)
 # f.close()
 
 # 先将源文件的内容全部清除，在写。
@@ -45,7 +43,7 @@
 
 
 # f = open('log',mode='w+',encoding='utf-8')
-# f.write('aaa')
+# f.write('bbbb')
 # f.seek(0)
 # print(f.read())
 # f.close()
@@ -56,8 +54,13 @@
 # f.close()
 
 # f = open('log',mode='a',encoding='utf-8')
-# f.write('佳琪')
+# f.write('小茹')
 # f.close()
+
+# f=open('log',mode='ab',)
+# f.write('XiaoRu'.encode('utf-8'))
+# f.close()
+
 #
 # f = open('log',mode='a',encoding='utf-8')
 # f.write('佳琪')
@@ -65,7 +68,7 @@
 
 
 # f = open('log',mode='a+',encoding='utf-8')
-# f.write('佳琪')
+# f.write('xiaoru')
 # f.seek(0)
 # print(f.read())
 # f.close()
@@ -104,3 +107,4 @@
 
 # with open('log',mode='r+',encoding='utf-8') as f,\
 #         open('log',mode='w+',encoding='utf-8') as f1:
+
